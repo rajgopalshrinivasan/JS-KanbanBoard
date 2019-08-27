@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Build a Kanban Board with Javascript - https://pluralsight.com",
   "scripts": {
-    "start": "ws --hostname localhost --open",
+    "start": "ws --hostname localhost -p 9000 --open",
     "test": "cross-env NODE_ENV=test mocha './test/*.test.js' || true",
     "test:module1": "cross-env NODE_ENV=test mocha './test/module1.test.js' || true"
   },
